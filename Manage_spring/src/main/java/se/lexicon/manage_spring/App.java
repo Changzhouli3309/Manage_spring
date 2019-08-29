@@ -13,6 +13,7 @@ public class App
 
     	StudentManagement sM = context.getBean(StudentManagement.class); 
     	
+    	//test
     	sM.save(new Student("test1"));
     	sM.save(new Student("test2"));
     	sM.save(new Student("test3"));
